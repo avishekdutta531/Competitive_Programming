@@ -20,6 +20,43 @@
 *************************************************************************/
 
 #include <stdio.h>
+#include <math.h>
+#include <string.h>
+
+int DIVISOR(int n)
+{
+    int i, count=0;
+
+    for (i = 1; i <= n; i++) {
+        if (n % i == 0) {
+            count++;
+            printf("%d : %d\n", count, i);
+        }
+    }
+    printf("\nTotal divisors of %d is %d\n", n, count);
+}
+
+int MULTIPLIER(int n, int j)
+{
+    int i, count=0;
+
+    for (i = 1; i <= j; i++) {
+        count++;
+        printf("%d : %d\n", count, (n * i));
+    }
+}
+
+int PRIME(int n)
+{
+    int i;
+
+    for (i = 2; i <= n/2; i++) {
+        if (n % i == 0) {
+            return 0;
+        }
+    }
+    return 1;
+}
 
 void SWAP(int a, int b)
 {

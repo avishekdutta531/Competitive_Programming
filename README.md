@@ -4,4 +4,3 @@ The aim of competitive programming is to write source code of computer programs 
 
 >>>>> Learn More About Competitive Programming At Wikipedia https://en.wikipedia.org/wiki/Competitive_programming#:~:text=The%20aim%20of%20competitive%20programming,mathematical%20or%20logical%20in%20nature.
 
->> © Copyright Avishek Dutta. All Rights Reserved.
